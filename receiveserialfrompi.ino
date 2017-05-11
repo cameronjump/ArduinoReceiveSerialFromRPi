@@ -1,4 +1,8 @@
-// Process serial data from raspberry pi to Arduino
+/* Example for receiving strings from Raspberry Pi on Arduino and processing them. 
+Arduino expects '<' to start string and '>' to end string. 
+This example was used for control of rgb led strips. Modeled after some code I found in some forums, I can't remember the source.  
+Process serial data from raspberry pi to Arduino */
+
 
 // rgb pin values
 int redPin = 3;
